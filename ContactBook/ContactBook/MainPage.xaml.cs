@@ -52,6 +52,10 @@ namespace ContactBook
             await Navigation.PushAsync(new GridShowcasePage());
         }
 
-        
+        async private void go_to_carousel_page_Pressed(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CarouselShowcasePage());
+        }
+
     }
 }

@@ -16,3 +16,6 @@ D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netst
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\ContactBook.pdb
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\ContactDetailsPage.xaml.g.cs
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\TabsShowcasePage.xaml.g.cs
+D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\GridShowcasePage.xaml.g.cs
+D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\CarouselShowcasePage.xaml.g.cs
+D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\Views\FormShowcaseView.xaml.g.cs

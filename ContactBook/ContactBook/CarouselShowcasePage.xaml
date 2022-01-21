@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactBook.CarouselShowcasePage"
+              xmlns:local="clr-namespace:ContactBook">
+
+    <ContentPage>
+            <Label Text="Content of page 1" />
+    </ContentPage>
+    
+    <ContentPage>
+        <Label Text="Content of page 2" />
+    </ContentPage>
+</CarouselPage>

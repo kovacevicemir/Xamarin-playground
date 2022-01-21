@@ -1,16 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:contactbook="clr-namespace:ContactBook"
              x:Class="ContactBook.TabsShowcasePage">
 
-    <!--This page can be replaced with some external page-->
-    <ContentPage Title="Page1" IconImageSource="camera.png">
-        <Label Text="Content of page 1" HorizontalOptions="Center" VerticalOptions="Center"/>
-    </ContentPage>
+    <!--External page-->
+    <contactbook:FormShowcaseView Title="Page1" IconImageSource="camera.png" />
     
-    <!--This page can be replaced with some external page-->
+    <!--If NAVIGATION is needed, this page should be wrapped in navigation page example:
+       <NavigationPage>
+            <x:Arguments> (<- this is the same as passing argument to construction function(arg)
+                  <Page...>-->
+
     <ContentPage Title="Page2" IconImageSource="fb.ico">
         <Label Text="Content of page 2" HorizontalOptions="Center" VerticalOptions="Center"/>
     </ContentPage>
-    
+
+    <!--To reference external page, xaml name space should be added example: xmlns:contactbook="clr-namespace:ContactBook" -->
+    <contactbook:GridShowcasePage Title="Page3"/>
 </TabbedPage>
