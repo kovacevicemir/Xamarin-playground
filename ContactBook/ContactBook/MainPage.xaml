@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    Title="Home"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ContactBook"
+    x:Class="ContactBook.MainPage">
+
+    <StackLayout>
+        <ListView x:Name="listView" HasUnevenRows="True" ItemSelected="listView_ItemSelected"  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <local:ListRow  Name="Emir" Status="Hello!" ImageUrl="https://static.toiimg.com/thumb/resizemode-4,msid-76729750,imgsize-249247,width-720/76729750.jpg" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Go To Tabbed page" Pressed="go_to_tabbed_page_Pressed"/>
+        <Button Text="Go To Grid page" Pressed="go_to_grid_page_Pressed"/>
+    </StackLayout>
+</ContentPage>
