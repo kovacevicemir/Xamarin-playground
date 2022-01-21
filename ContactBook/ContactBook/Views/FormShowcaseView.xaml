@@ -1,37 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              x:Class="ContactBook.FormShowcaseView">
-    <StackLayout Padding="5,5,5,5">
-        <Label Text="FORM" HorizontalOptions="Center" Padding="5,5,5,5" FontSize="Subtitle"/>
+    <ScrollView>
+        <StackLayout Padding="5,5,5,5">
+            <Label Text="FORM" HorizontalOptions="Center" Padding="5,5,5,5" FontSize="Subtitle"/>
         
-        <!--Example of xaml binding SWITCH-->
-        <Label Text="Hide On Toggle switch" IsVisible="{Binding Source={x:Reference switch}, Path=IsToggled}"/>
-        <Switch IsToggled="True" x:Name="switch"/>
+            <!--Example of xaml binding SWITCH-->
+            <Label Text="Hide On Toggle switch" IsVisible="{Binding Source={x:Reference switch}, Path=IsToggled}"/>
+            <Switch IsToggled="True" x:Name="switch"/>
 
-        <!--Example of xaml binding SLIDER-->
-        <Label Text="Slider example" />
-        <Slider x:Name="slider" Maximum="255" Minimum="10" />
-        <Label Text="{
-                Binding Source={x:Reference slider},
-                Path=Value,
-                StringFormat='{0:N0}'
-            }"  
-         />
+            <!--Example of xaml binding SLIDER-->
+            <Label Text="Slider example" />
+            <Slider x:Name="slider" Maximum="255" Minimum="10" />
+            <Label Text="{
+                    Binding Source={x:Reference slider},
+                    Path=Value,
+                    StringFormat='{0:N0}'
+                }"  
+             />
 
-        <!--Example of xaml binding STEPPER-->
-        <Label Text="Stepper example" />
-        <Stepper x:Name="stepper" Increment="1"/>
-        <Label Text="{Binding Source={x:Reference stepper}, Path=Value}"/>
+            <!--Example of xaml binding STEPPER-->
+            <Label Text="Stepper example" />
+            <Stepper x:Name="stepper" Increment="1"/>
+            <Label Text="{Binding Source={x:Reference stepper}, Path=Value}"/>
         
-        <!--Entry & Editor-->
-        <Label Text="Entry example" />
-        <Entry Keyboard="Numeric" Placeholder="Phone"/>
-        <Entry IsPassword="True" Completed="Entry_Completed"/>
-        <Label x:Name="password_label" />
+            <!--Entry & Editor-->
+            <Label Text="Entry example" />
+            <Entry Keyboard="Numeric" Placeholder="Phone"/>
+            <Entry IsPassword="True" Completed="Entry_Completed"/>
+            <Label x:Name="password_label" />
         
-        <!--Editor-->
-        <Label Text="Editor example" />
-        <Editor Background="whitesmoke" Placeholder="text editor..."/>
-    </StackLayout>
+            <!--Editor-->
+            <Label Text="Editor example" />
+            <Editor Background="whitesmoke" Placeholder="text editor..."/>
+
+            <!--Picker-->
+            <Label Text="Picker example" />
+            <Picker Title="Contact Method">
+                <Picker.Items>
+                    <x:String>SMS</x:String>
+                    <x:String>EMAIL</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!--Date & Time Pickers-->
+            <Label Text="Date Picker example" />
+            <DatePicker Date="{x:Static sys:DateTime.Today}" Format="d MMM yyyy" MinimumDate="1 Jan 2016"/>
+            <TimePicker Time="13:00" />
+
+            <!--Table View-->
+            <Label Text="Table View example" />
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="First table section">
+                        <TextCell Text="Name" Detail="Emir Kovacevic" />
+                        <EntryCell Label="Title" Placeholder="(eg something)"/>
+                        <SwitchCell Text="Notifications" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
