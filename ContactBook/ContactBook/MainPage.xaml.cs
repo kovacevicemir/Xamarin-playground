@@ -61,5 +61,10 @@ namespace ContactBook
         {
             await Navigation.PushAsync(new DataAccessShowcasePage());
         }
+
+        async private void go_to_rest_api_page_Pressed(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RESTshowcasePage());
+        }
     }
 }

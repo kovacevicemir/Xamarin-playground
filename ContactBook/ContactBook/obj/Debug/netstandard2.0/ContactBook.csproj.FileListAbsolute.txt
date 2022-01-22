@@ -20,3 +20,4 @@ D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netst
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\Views\FormShowcaseView.xaml.g.cs
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\DataAccessShowcasePage.xaml.g.cs
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\ContactBook.csproj.AssemblyReference.cache
+D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\RESTshowcasePage.xaml.g.cs
