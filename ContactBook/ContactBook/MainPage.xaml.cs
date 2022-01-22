@@ -57,5 +57,9 @@ namespace ContactBook
             await Navigation.PushAsync(new CarouselShowcasePage());
         }
 
+        async private void go_to_data_access_page_Pressed(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DataAccessShowcasePage());
+        }
     }
 }

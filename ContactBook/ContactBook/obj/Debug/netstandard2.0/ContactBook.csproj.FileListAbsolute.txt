@@ -1,4 +1,3 @@
-D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\ContactBook.csproj.AssemblyReference.cache
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\ContactBook.GeneratedMSBuildEditorConfig.editorconfig
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
@@ -19,3 +18,5 @@ D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netst
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\GridShowcasePage.xaml.g.cs
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\CarouselShowcasePage.xaml.g.cs
 D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\Views\FormShowcaseView.xaml.g.cs
+D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\DataAccessShowcasePage.xaml.g.cs
+D:\Codes\csharp\xamarin apps\ContactBook\ContactBook\ContactBook\obj\Debug\netstandard2.0\ContactBook.csproj.AssemblyReference.cache

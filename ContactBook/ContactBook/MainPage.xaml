@@ -17,5 +17,6 @@
         <Button Text="Go To Tabbed page" Pressed="go_to_tabbed_page_Pressed"/>
         <Button Text="Go To Grid page" Pressed="go_to_grid_page_Pressed"/>
         <Button Text="Go To Carousel page" Pressed="go_to_carousel_page_Pressed"/>
+        <Button Text="Go To Data Access page" Pressed="go_to_data_access_page_Pressed"/>
     </StackLayout>
 </ContentPage>
